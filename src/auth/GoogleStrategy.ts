@@ -13,8 +13,8 @@ export class GoogleStrategy extends PassportStrategy(Strategy){
         private readonly authService:AuthService,
     ){
         super({
-            clientID:'64971477087-tuj3pk7d2bt7erv3fmld5v8h0jtk623h.apps.googleusercontent.com',
-            clientSecret:'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',
+            clientID:'***************************',
+            clientSecret:'*************************',
             callbackURL:'http://localhost:3000/api/auth/redirect',
             scope:['email','profile']
         })
